@@ -239,23 +239,25 @@ hr {
   }
 
   .news-title h1 {
-    font-size: 65px;
+    font-size: 55px;
+    width: 91%;
   }
 
   .part-title h2, a {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .header-image-description p {
     font-size: 20px;
   }
 
-  .repost-btns, .text, .part-title, .text p {
+  .repost-btns, .text, .part-title, .text p, .news-title {
     width: 91%;
   }
 
   .rbtn {
     width: 13%;
-    height: 8vh;
+    height: 9vh;
+    max-height: 80px;
   }
 }
