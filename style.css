@@ -71,7 +71,6 @@ body, button, input, option, select, textarea {
     margin: 20px auto;
     display: block;
     font-weight: 300;
-    font-size: 16px;
 }
 
 .news-title h1 {
@@ -235,7 +234,19 @@ hr {
 }
 
 @media (max-width: 768px) {
-  body {
-    font-size: 40px;
+  * {
+    font-size: 35px;
+  }
+
+  .news-title h1 {
+    font-size: 65px;
+  }
+
+  .part-title h2, a {
+    font-size: 60px;
+  }
+
+  .header-image-description p {
+    font-size: 20px;
   }
 }
