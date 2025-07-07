@@ -1,0 +1,235 @@
+body, button, input, option, select, textarea {
+    color: #000;
+    text-align: left;
+    -webkit-text-size-adjust: 100%;
+    background-color: rgb(230, 230, 230);
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.news-media {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin: 30px;
+}
+
+.news-container {
+    margin: 20px auto;
+    width: 1200px;
+    background-color: white;
+    padding-bottom: 70px;
+    justify-content: center;
+}
+
+.news-header_image {
+    margin-bottom: -70px;
+}
+
+.news-header_image img{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.header-image-description {
+    width: 1200px;
+    height: 70px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    bottom: 70px;
+}
+
+.header-image-description p {
+    color: #ffffff;
+    font-size: 13px;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 5%;
+}
+
+.text p {
+    width: 820px;
+    float: left;
+    margin: 20px auto;
+    display: block;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.news-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 0;
+    display: block;
+    width: 820px;
+    margin: 30px auto;
+}
+
+.repost-btns, .text, .part-title {
+    width: 820px;
+    margin: 20px auto;
+}
+
+.repost-btns {
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    margin-top: 10px;
+}
+
+.rbtn {
+    height: 44px;
+    width: 110px;
+    background-color: #000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook-btn {
+    background-color: rgb(21,125,195);
+    transition: all 500ms ease;
+}
+
+.facebook-btn img {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.facebook-btn:hover {
+    transform: scale(1.1);
+}
+
+.vk-btn {
+    background-color: rgb(0,120,255);
+    transition: all 500ms ease;
+}
+
+.vk-btn img {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.vk-btn:hover {
+    transform: scale(1.1);
+}
+
+.twitter-btn {
+    background-color: rgb(45,170,225);
+    transition: all 500ms ease;
+}
+
+.twitter-btn img {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.twitter-btn:hover {
+    transform: scale(1.1);
+}
+
+.odnokl-btn {
+    background-color: rgb(255,104,0);
+    transition: all 500ms ease;
+}
+
+.odnokl-btn img {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.odnokl-btn:hover {
+    transform: scale(1.1);
+}
+
+.viber-btn {
+    background-color: rgb(125,61,175);
+    transition: all 500ms ease;
+}
+
+.viber-btn img {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.viber-btn:hover {
+    transform: scale(1.1);
+}
+
+.telegram-btn {
+    background-color: rgb(35,166,229);
+    transition: all 500ms ease;
+}
+
+.telegram-btn img {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.telegram-btn:hover {
+    transform: scale(1.1);
+}
+
+.part-title h2, a {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.news-info a {
+    color: black;
+    cursor: pointer;
+}
+
+.media {
+    margin: 40px auto;
+    width: 1100px;
+    display: block;
+}
+
+.media img {
+    display: flex;
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 1100px;
+    position: relative;
+    padding-top: 20px;
+    margin: 20px auto;
+}
+
+hr {
+    background-color: rgb(230, 230, 230);
+    color: rgb(230, 230, 230);
+    width: 1200px;
+    height: 3px;
+    border: 0px solid black;
+}
