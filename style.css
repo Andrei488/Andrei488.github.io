@@ -249,4 +249,13 @@ hr {
   .header-image-description p {
     font-size: 20px;
   }
+
+  .repost-btns, .text, .part-title, .text p {
+    width: 91%;
+  }
+
+  .rbtn {
+    width: 15%;
+    height: 7vh;
+  }
 }
