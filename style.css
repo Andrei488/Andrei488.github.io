@@ -233,3 +233,9 @@ hr {
     height: 3px;
     border: 0px solid black;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 40px;
+  }
+}
