@@ -105,6 +105,7 @@ body, button, input, option, select, textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .facebook-btn {
@@ -138,7 +139,7 @@ body, button, input, option, select, textarea {
 }
 
 .twitter-btn {
-    background-color: rgb(45,170,225);
+    background-color: rgb(214, 214, 214);
     transition: all 500ms ease;
 }
 
