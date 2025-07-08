@@ -261,4 +261,8 @@ hr {
     height: 9vh;
     max-height: 80px;
   }
+
+  .rbtn img {
+    height: 100%;
+  }
 }
